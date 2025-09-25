@@ -1,0 +1,49 @@
+name: offline_first
+description: "This project demonstrates how to build an **Offline-First** application in **Flutter** using **Clean Architecture** principles.  
+The app synchronizes user data between a **local SQLite database** and **Firebase Firestore**, ensuring that it works seamlessly with or without an internet connection."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.32.8"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  auto_route: ^10.1.2
+
+  
+  firebase_core: ^4.1.0
+  cloud_firestore: ^6.0.1
+
+
+  connectivity_plus: ^7.0.0
+  dio: ^5.7.0
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flutter_bloc: ^9.1.1
+  get_it: ^8.2.0
+  injectable: ^2.5.0
+
+  
+  json_annotation: ^4.9.0
+  path: ^1.8.3
+  retrofit: ^4.4.0
+  sqflite: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.7.1 
+  json_serializable: ^6.11.1
+  retrofit_generator: ^10.0.5
+  auto_route_generator: ^10.2.4
+  injectable_generator: ^2.8.1
+
+flutter:
+  uses-material-design: true
